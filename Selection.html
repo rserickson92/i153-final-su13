@@ -3,16 +3,16 @@
 	<head>
 		<meta charset="UTF-8" />
 	    <link rel="stylesheet" type="text/css" href="css/info-style.css" />
+	    <link rel="stylesheet" type="text/css" href="css/selection-style.css">
 	  	<script type="text/javascript" src="jquery-1.6.4.min.js"></script>
 	  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 	  	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10/jquery-ui.min.js"></script>
-	  	<script src="js/generate-major-listings.js"></script>
 		<title>What is my Major?</title>
 	</head>
 	<body>
 		<!--This is Logo Part-->
 		<div id="header">
-			<img src="images/title-logo.jpg"/>
+			<img id="logo" src="images/title-logo.jpg"/>
 			<!--This is Navigator Part-->
 			<ul id="nav">
 				<li class="inline"><a href="index.html"><img src="images/home.jpg" /></a></li>
@@ -25,11 +25,11 @@
       		<h2>Choose the Major(s) you are interested in: </h2>
     	</div>
 		<!--This is Selection Part               ps.I have to use iframe->a sub html to make this selection come true,and we have to change that page's javascript to make choose funtion run-->
-		<iframe width="600px" src=box.html></iframe>
+		<iframe width="1000px" height="300px" src=box.html></iframe>
 		<!--This is Choose-all Part-->
 		<div><p>Choose all</p></div>
 		<div>
-			<img src="http://www.asparkstarts.com/wp-content/uploads/2011/02/or.jpg"/>
+			<img id="or" src="http://www.asparkstarts.com/wp-content/uploads/2011/02/or.jpg"/>
 		</div>
 		<!--This is Survey Part,The file name might be wrong-->
 		<div><p>Take a quick <a href="info.html"><em>survey</em></a></p></div>
