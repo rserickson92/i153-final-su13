@@ -1,17 +1,37 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<meta charset="UTF-8" />
+	    <link rel="stylesheet" type="text/css" href="css/info-style.css" />
+	  	<script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+	  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	  	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10/jquery-ui.min.js"></script>
+	  	<script src="js/generate-major-listings.js"></script>
 		<title>What is my Major?</title>
 	</head>
 	<body>
-		<div>
+		<!--This is Logo Part-->
+		<div id="header">
 			<img src="images/title-logo.jpg"/>
-		</div>
+			<!--This is Navigator Part-->
+			<ul id="nav">
+				<li class="inline"><a href="index.html"><img src="images/home.jpg" /></a></li>
+				<li class="inline"><a href="about.html"><img src="images/about.jpg" /></a></li>
+				<li class="inline"><img src="images/policy.jpg" /></li>
+				<li class="inline"><img src="images/contact.jpg" /></li>
+	      	</ul>
+      	</div>
+      	<div class="title">
+      		<h2>Choose the Major(s) you are interested in: </h2>
+    	</div>
+		<!--This is Selection Part               ps.I have to use iframe->a sub html to make this selection come true,and we have to change that page's javascript to make choose funtion run-->
 		<iframe width="600px" src=box.html></iframe>
+		<!--This is Choose-all Part-->
 		<div><p>Choose all</p></div>
 		<div>
 			<img src="http://www.asparkstarts.com/wp-content/uploads/2011/02/or.jpg"/>
 		</div>
+		<!--This is Survey Part,The file name might be wrong-->
 		<div><p>Take a quick <a href="info.html"><em>survey</em></a></p></div>
 	</body>
 </html>
