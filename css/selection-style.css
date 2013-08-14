@@ -2,3 +2,9 @@
 	width: 100px;
 	height: 65px;
 }
+#box{
+	position: relative;
+  	width: 920px;
+  	margin:50px auto;
+  	min-height: 100%;
+  }
