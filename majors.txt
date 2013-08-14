@@ -2,6 +2,7 @@ Anthropology
 Architecture
 Art
 Astronomy
+Biology
 Business
 Chemistry
 Civil Engineering
@@ -9,28 +10,26 @@ Cognitive Science
 Communications
 Computer Science
 Economics
+Education
 Electrical Engineering
 English
-Environmental Science
-Film Studies
-Gender Studies
-Geography
+Finance
+Fine Arts
 Geology
 History
-Information
-Legal Studies
+Language
 Linguistics
 Mathematics
 Mechanical Engineering
-Molecular & Cell Biology
 Music
-Neurobiology
-Plant and Microbial Biology
+Nursing
+Performing Arts
+Pharmacy
 Philosophy
 Physics
 Political Science
+PreLaw
+PreMed
 Psychology
 Religious Studies
 Sociology
-Statistics
-Theater
