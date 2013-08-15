@@ -1,0 +1,101 @@
+#style
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.story
+{
+	height:200px;
+	width:200px;
+	border: 5px solid black;
+	margin-top: 100px;
+	margin-left: 75px;
+	border-radius:5px;
+	position: relative;
+}
+
+#logo
+{
+	max-height: 1500px;
+	max-width: 2000px;
+	width: 1240px;
+	height: 240px;
+	position: relative;
+}
+
+.arrows
+{
+	height: 50px;
+	width: 75px;
+	margin-right:0px ;
+	margin-top: 20px;
+	margin-left: 50px;
+
+}
+
+#future
+{
+	height:200px;
+	width:300px;
+	border-width: 5px;
+	border-color: "black";
+	vertical-align: bottom;
+	position: relative;
+	clear: both;
+	background-color:"blue";
+	margin-left: 500px;	
+	margin-top: 50px;
+}
+
+
+.button 
+	{
+		box-shadow:inset 0px 1px 0px 0px;
+		box-shadow:inset 0px 1px 0px 0px;
+		box-shadow:inset 0px 1px 0px 0px ;
+		background-color:#77d42a;
+		border-radius:5px;
+		border:2px solid #268a16;
+		display:inline-block;
+		color:#306108;
+		font-family:arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:8px 26px;
+		text-decoration:none;
+		text-shadow:1px 1px 0px #aade7c;
+	}
+
+.button:hover 
+	{
+		background-color:#FCF9F9;
+	}
+
+.button:active 
+	{
+		position:relative;
+		top:1px;
+	}
+
+#home
+{
+	position: absolute;
+	margin-right:20px ;
+	margin-top: 3px ;
+	margin-left: 875px;
+}
+
+#about
+{
+	position: absolute;
+	margin-top: 3px ;
+	margin-left: 975px;
+}
+
+#contact
+{
+	position: absolute;
+	margin-top: 3px ;
+	margin-left: 1100px;
+}
