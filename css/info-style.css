@@ -54,6 +54,26 @@ ul.bullet {
   right: 10px;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#major-list-container {
+  width: 200px;
+}
+
+#major-list {
+  overflow-y: scroll;
+  height: 80px;
+  text-align: left;
+}
+
+.error {
+  color: red;
+}
+
 img.major-image {
   height: 80px;
   width: 150px;
@@ -61,7 +81,7 @@ img.major-image {
   margin-right: auto;
 }
 
-#major-table {
+.major-table {
   padding-left: 10px;
 }
 
