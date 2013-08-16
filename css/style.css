@@ -1,3 +1,11 @@
+body {
+  background-image: url("../images/bgfaded.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:center; 
+  background-size: 100% 100%;
+  background-color: white;
+}
 #style
 {
 	background-size: cover;
@@ -17,11 +25,9 @@
 
 #logo
 {
-	max-height: 1500px;
-	max-width: 2000px;
-	width: 1240px;
-	height: 240px;
-	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
 }
 
 .arrows
@@ -33,7 +39,9 @@
 	margin-left: 50px;
 
 }
-
+#header {
+  background-color: #1757fb;
+}
 #future
 {
 	height:200px;
@@ -48,7 +56,19 @@
 	margin-top: 50px;
 }
 
+.inline {
+  display: inline-block;
+  position: relative;
+  right: 10px;
+}
 
+#nav {
+  float: right;
+}
+
+#clear {
+  clear: both;
+}
 .button 
 	{
 		box-shadow:inset 0px 1px 0px 0px;
